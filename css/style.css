@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9FF;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 1024px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topheader_section {
+    display: flex;
+    justify-content: center;
+    background-color: #0071F5;
+    
+}
+
+.topheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.topheader a {
+    color: #FFF;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    transition: 0.3s;
+}
+
+.topheader a:hover {
+    background-color: #005FCE;
+}
+
+.header_section {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0071F5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h_logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.h_logo img {
+    width: 14%;
+    margin-right: 10px;
+}
+
+.h_info {
+    font-weight: 500;
+}
